@@ -11,33 +11,37 @@
 
     class Veiculos
     {
-        public $ID;
         public $marca;
         public $modelo;
-        public $foto;
         public $valor;
 
         public function create()
         {
+            $sql= sprintf("");
 
         }
 
         public function read()
         {
+            $sql= sprintf("");
+
         }
 
         public function reads()
         {
+            $sql= sprintf("SELECT * FROM `veiculos`");
 
         }
 
         public function update()
         {
+            $sql= sprintf("");
 
         }
 
         public function delete()
         {
+            $sql= sprintf("");
 
         }
 

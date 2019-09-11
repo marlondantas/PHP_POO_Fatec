@@ -6,16 +6,13 @@
      * Time: 00:49
      */
 
-    namespace concessionary;
+    $conn = new PDO("mysql:host=localhost;dbname=concessionaria", "root", "");
 
+    $stmt = $conn->prepare("INSERT INTO `usuarios` (`ID`, `user`, `password`, `nome`) VALUES (NULL, ?, ?, ?);");
+    $admin = "admin";
+    $stmt->bindParam(1,$admin);
+    $stmt->bindParam(2,$admin);
+    $stmt->bindParam(3,$admin);
+    $stmt->execute();
 
-    class conn
-    {
-        public $host ='localhost';
-        public $user = 'root';
-        public $pass = '';
-        public $base = 'concessionaria';
-
-        public $con = new PDO("mysql:host=localhost;dbname=exercicio", "root", "senha");
-
-    }
+?>

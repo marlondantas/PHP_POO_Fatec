@@ -11,35 +11,37 @@
 
     class Clientes
     {
-        public $ID;
         public $nome;
         public $cpf;
-        public $endereco;
         public $email;
         public $senha;
-        public $foto;
 
         public function create()
         {
-
+            $sql= sprintf("");
         }
 
         public function read()
         {
+            $sql= sprintf("");
+
         }
 
         public function reads()
         {
+            $sql= sprintf("SELECT * FROM `clientes`");
 
         }
 
         public function update()
         {
+            $sql= sprintf("");
 
         }
 
         public function delete()
         {
+            $sql= sprintf("");
 
         }
     }

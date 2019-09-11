@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: 06-Set-2019 às 05:28
+-- Generation Time: 11-Set-2019 às 05:10
 -- Versão do servidor: 10.1.35-MariaDB
 -- versão do PHP: 7.2.9
 
@@ -32,10 +32,8 @@ CREATE TABLE `clientes` (
   `ID` int(11) NOT NULL,
   `nome` varchar(50) NOT NULL,
   `cpf` varchar(20) NOT NULL,
-  `endereco` varchar(250) NOT NULL,
   `email` varchar(100) NOT NULL,
-  `password` varchar(50) NOT NULL,
-  `foto` varchar(100) NOT NULL
+  `password` varchar(50) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 -- --------------------------------------------------------
@@ -48,8 +46,7 @@ CREATE TABLE `usuarios` (
   `ID` int(11) NOT NULL,
   `user` varchar(50) NOT NULL,
   `password` varchar(50) NOT NULL,
-  `nome` varchar(50) NOT NULL,
-  `foto` varchar(200) NOT NULL
+  `nome` varchar(50) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 -- --------------------------------------------------------
@@ -62,8 +59,7 @@ CREATE TABLE `veiculos` (
   `ID` int(11) NOT NULL,
   `marca` varchar(100) NOT NULL,
   `modelo` varchar(100) NOT NULL,
-  `valor` float NOT NULL,
-  `foto` varchar(100) NOT NULL
+  `valor` float NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --

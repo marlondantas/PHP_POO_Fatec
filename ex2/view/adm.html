@@ -1,4 +1,5 @@
 <body>
+
     <!-- Content -->
     <div class="cd-hero">
 
@@ -7,7 +8,7 @@
             <nav class="navbar">
                 <div class="tm-navbar-bg">
 
-                    <a class="navbar-brand text-uppercase" href="#"><i class="fa fa-fire tm-brand-icon"></i>TRUCK Color</a>
+                    <a class="navbar-brand text-uppercase" href="#"><i class="fa fa-fire tm-brand-icon"></i>TRUCK Color - #{nome}</a>
 
                     <button class="navbar-toggler hidden-lg-up" type="button" data-toggle="collapse" data-target="#tmNavbar">
                         &#9776;
@@ -17,11 +18,17 @@
                             <li class="nav-item active selected">
                                 <a class="nav-link" href="#0" data-no="1">Veiculos<span class="sr-only">(current)</span></a>
                             </li>
+                            <!--<li class="nav-item">-->
+                                <!--<a class="nav-link" href="#0" data-no="2">Multi Two</a>-->
+                            <!--</li>-->
+                            <!--<li class="nav-item">-->
+                                <!--<a class="nav-link" href="#0" data-no="3">Multi Three</a>-->
+                            <!--</li>-->
                             <li class="nav-item">
                                 <a class="nav-link" href="#0" data-no="2">Sobre</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#0" data-no="3">Login</a>
+                                <a class="nav-link" href="#0" data-no="3">#{nome}</a>
                             </li>
                         </ul>
                     </div>
@@ -47,7 +54,7 @@
                                 </div>
 
                                 <!--PERFIL PARA IMPRESSAO DOS BLOCOS -->
-                                #{lista_carros}
+
                                 <!--FIM DA IMPRESSAO-->
 
                             </div>
@@ -71,14 +78,27 @@
                             </div>
                         </div>
 
+                        <!--<div class="row tm-white-box-margin-b">-->
+                        <!--<div class="col-xs-12">-->
+                        <!--<div class="tm-flex">-->
+                        <!--<div class="tm-bg-white-translucent text-xs-left tm-textbox tm-2-col-textbox-2 tm-textbox-padding">-->
+                        <!--<h2 class="tm-text-title">Nulla vitae magna</h2>-->
+                        <!--<p class="tm-text">Aliquam porttitor tortor at nisi fermentum, ac porta arcu vulputate. Nunc lobortis ipsum sapien, non ultrices odio tempus varius. In posuere dolor non sagittis ultrices.</p>-->
+                        <!--</div>-->
+                        <!--<div class="tm-bg-white-translucent text-xs-left tm-textbox tm-2-col-textbox-2 tm-textbox-padding">-->
+                        <!--<h2 class="tm-text-title">Vivamus aliquam turpis</h2>-->
+                        <!--<p class="tm-text">Integer quis leo pretium, cursus nisl non, placerat magna. Sed efficitur massa id magna eleifend tristique. Duis vitae turpis dapibus, facilisis magna ut, pretium metus.</p>     -->
+                        <!--</div>-->
+                        <!--</div>-->
+                        <!--</div>-->
+                        <!--</div>  -->
+
                         <div class="row">
                             <div class="col-xs-12">
                                 <div class="tm-flex">
                                     <div class="tm-bg-white-translucent text-xs-left tm-textbox tm-2-col-textbox-2 tm-textbox-padding">
                                         <h2 class="tm-text-title">Marlon Dantas</h2>
-                                        <p class="tm-text">
-                                            Pajé da concessionaria!
-                                        </p>
+                                        <p class="tm-text">Pajé da concessionaria!</p>
                                     </div>
                                     <div class="tm-bg-white-translucent text-xs-left tm-textbox tm-2-col-textbox-2 tm-textbox-padding">
                                         <h2 class="tm-text-title">Cauan Siqueira</h2>
@@ -111,30 +131,29 @@
                                     <div class="tm-flex tm-contact-container">
 
                                         <div class="tm-bg-white-translucent text-xs-left tm-textbox tm-2-col-textbox-2 tm-textbox-padding tm-textbox-padding-contact">
-                                            <h2 class="tm-contact-info">Registe-se</h2>
+                                            <h2 class="tm-contact-info">Registe Carros</h2>
                                             <p class="tm-text">
-                                                Venha fazer parte da nossa Familia! Cadastre-se Agora!
+                                                Adicione carros no catalogo!
                                             </p>
 
                                             <!-- contact form -->
-                                            <form action="../controller/new_cliente.php" method="post" class="tm-contact-form" enctype="multipart/form-data">
+                                            <form action="../controller/new_car.php" method="POST" class="tm-contact-form" enctype="multipart/form-data">
 
                                                 <div class="form-group">
-                                                    <input type="text" id="contact_name" name="contact_name" class="form-control" placeholder="Name"  required/>
+                                                    <input type="text" id="contact_marca" name="contact_marca" class="form-control" placeholder="Marca"  required/>
                                                 </div>
 
                                                 <div class="form-group">
-                                                    <input type="text" id="contact_email" name="contact_email" class="form-control" placeholder="Email"  required/>
+                                                    <input type="text" id="contact_modelo" name="contact_modelo" class="form-control" placeholder="Modelo"  required/>
                                                 </div>
 
                                                 <div class="form-group">
-                                                    <input id="contact_password"  type="password" name="contact_password" class="form-control" rows="5" placeholder="Senha" required>
+                                                    <input type="text" id="contact_valor" name="contact_valor" class="form-control" placeholder="Valor R$"  required/>
                                                 </div>
 
                                                 <div class="form-group">
                                                     <input type="file" id="contact_img" name="contact_img" class="form-control" placeholder=""  required/>
                                                 </div>
-
 
                                                 <button type="submit" class="pull-xs-right tm-submit-btn">Enviar</button>
 
@@ -142,48 +161,47 @@
                                         </div>
 
                                         <div class="tm-bg-white-translucent text-xs-left tm-textbox tm-2-col-textbox-2 tm-textbox-padding tm-textbox-padding-contact">
-                                            <h2 class="tm-contact-info">Login - <strong>Cliente</strong> </h2>
+                                            <h2 class="tm-contact-info">Registre ADMS</h2>
                                             <p class="tm-text">
-                                               Entre na sua conta!
+                                                Cadastre novos adms no site!
                                             </p>
 
                                             <!-- contact form -->
-                                            <form action="../controller/login_cliente.php" method="post" class="tm-contact-form">
+                                            <form action="../controller/new_adm.php" method="POST" class="tm-contact-form" enctype="multipart/form-data">
 
                                                 <div class="form-group">
-                                                    <input type="text" id="login_cli_email" name="login_cli_email" class="form-control" placeholder="Email"  required/>
+                                                    <input type="text" id=user_user" name="user_user" class="form-control" placeholder="User"  required/>
                                                 </div>
 
                                                 <div class="form-group">
-                                                    <input id="login_cli_password"  type="password" name="login_cli_password" class="form-control" rows="5" placeholder="Senha" required>
+                                                    <input type="password" id="user_password" name="user_password" class="form-control" placeholder="Password"  required/>
                                                 </div>
 
-                                                <button type="submit" class="pull-xs-right tm-submit-btn bg-success">Entrar</button>
+                                                <div class="form-group">
+                                                    <input type="text" id="user_nome" name="user_nome" class="form-control" placeholder="Nome"  required/>
+                                                </div>
+
+                                                <div class="form-group">
+                                                    <input type="file" id="user_img" name="user_img" class="form-control" placeholder=""  required/>
+                                                </div>
+
+                                                <button type="submit" class="pull-xs-right tm-submit-btn">Enviar</button>
 
                                             </form>
                                         </div>
 
                                         <div class="tm-bg-white-translucent text-xs-left tm-textbox tm-2-col-textbox-2 tm-textbox-padding tm-textbox-padding-contact">
-                                            <h2 class="tm-contact-info">Login - <strong>Funcionario</strong> </h2>
+                                            <h2 class="tm-contact-info">Sair</h2>
                                             <p class="tm-text">
-                                                Entre na sua conta!
+                                                Volte logo!
                                             </p>
 
                                             <!-- contact form -->
-                                            <form action="../controller/login_adm.php" method="post" class="tm-contact-form">
-
-                                                <div class="form-group">
-                                                    <input type="text" id="login_email" name="login_email" class="form-control" placeholder="Email"  required/>
-                                                </div>
-
-                                                <div class="form-group">
-                                                    <input id="login_password"  type="password" name="login_password" class="form-control" rows="5" placeholder="Senha" required>
-                                                </div>
-
-                                                <button type="submit" class="pull-xs-right tm-submit-btn bg-success">Entrar</button>
-
+                                            <form action="../controller/logoff.php" method="post" class="tm-contact-form">
+                                                <button type="submit" class="pull-xs-right tm-submit-btn bg-danger">SAIR</button>
                                             </form>
                                         </div>
+
                                     </div>
 
                                 </div>
@@ -202,8 +220,8 @@
         <footer class="tm-footer">
 
             <div class="tm-social-icons-container text-xs-center">
-                <a href="https://www.facebook.com/" target="_blank" class="tm-social-link"><i class="fa fa-facebook"></i></a>
-                <a href="https://twitter.com/login?lang=pt" target="_blank" class="tm-social-link"><i class="fa fa-twitter"></i></a>
+                <a href="#" class="tm-social-link"><i class="fa fa-facebook"></i></a>
+                <a href="#" class="tm-social-link"><i class="fa fa-twitter"></i></a>
             </div>
 
             <p class="tm-copyright-text">
@@ -224,6 +242,13 @@
 
     </div>
 
+    <!-- load JS files -->
+    <!--<script src="js/jquery-1.11.3.min.js"></script>         &lt;!&ndash; jQuery (https://jquery.com/download/) &ndash;&gt;-->
+    <!--<script src="https://www.atlasestateagents.co.uk/javascript/tether.min.js"></script> &lt;!&ndash; Tether for Bootstrap (http://stackoverflow.com/questions/34567939/how-to-fix-the-error-error-bootstrap-tooltips-require-tether-http-github-h) &ndash;&gt; -->
+    <!--<script src="js/bootstrap.min.js"></script>             &lt;!&ndash; Bootstrap js (v4-alpha.getbootstrap.com/) &ndash;&gt;-->
+    <!--<script src="js/hero-slider-main.js"></script>          &lt;!&ndash; Hero slider (https://codyhouse.co/gem/hero-slider/) &ndash;&gt;-->
+    <!--<script src="js/jquery.magnific-popup.min.js"></script> &lt;!&ndash; Magnific popup (http://dimsemenov.com/plugins/magnific-popup/) &ndash;&gt;-->
+    <!---->
     <script>
 
         function adjustHeightOfPage(pageNo) {

@@ -8,30 +8,41 @@
 
     namespace concessionary;
 
+    require ("conn.php");
 
     class Usuario
     {
+        private $conn;
+
         public $user;
         public $password;
         public $nome;
-        public $foto;
 
         public function create()
         {
+            $sql= sprintf("");
 
         }
 
         public function read()
         {
+            $sql= sprintf("");
+
         }
 
+        public function reads()
+        {
+            $sql = sprintf("SELECT * FROM `usuarios`");
+        }
         public function update()
         {
+            $sql= sprintf("");
 
         }
 
         public function delete()
         {
+            $sql= sprintf("");
 
         }
     }
