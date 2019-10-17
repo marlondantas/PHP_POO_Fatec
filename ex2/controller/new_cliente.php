@@ -7,14 +7,83 @@
      */
 
     $nome= $_POST['contact_name'];
-    $nome= $_POST['contact_email'];
-    $nome= $_POST['contact_password'];
+    $email= $_POST['contact_email'];
+    $pass= $_POST['contact_password'];
 
     //salva no SQL:
 
+    require("../model/Clientes.php");
+
+    class Clientes
+    {
+        public $nome;
+        public $cpf;//not user
+        public $email;
+        public $senha;
+
+        public static $instance;
+    
+        public static function getInstance() {
+            if (!isset(self::$instance))
+                self::$instance = new Clientes();
+    
+            return self::$instance;
+        }
+    
+        public function Inserir() {
+            try {
+                $sql = "INSERT INTO clientes (       
+                    `nome`,
+                    `email`,
+                    `password`) 
+                    VALUES (
+                    :nome,
+                    :email,
+                    :passwor)";
+    
+                $p_sql = Coon::getInstance()->prepare($sql);
+    
+                $p_sql->bindValue(":nome", $this->nome);
+                $p_sql->bindValue(":passwor", $this->senha);
+                $p_sql->bindValue(":email", $this->email);   
+    
+                //tem que retornar o id adicionado;
+
+                $p_sql->execute();
+                
+                return  Coon::lastInsertId();
+
+            } catch (Exception $e) {
+                print "Ocorreu um erro ao tentar executar esta ação, foi gerado um LOG do mesmo, tente novamente mais tarde.";
+                }
+        }
+
+        public function Buscar($user,$senha) {
+            try {
+                $sql = "SELECT * FROM clientes WHERE `user` = :cod";
+                $p_sql = Coon::getInstance()->prepare($sql);
+                $p_sql->bindValue(":cod", $user);
+
+                $p_sql->execute();
+
+                // return $this->populaUsuario($p_sql->fetch(PDO::FETCH_ASSOC));
+                return $p_sql->execute();
+            } catch (Exception $e) {
+                print "Ocorreu um erro ao tentar executar esta ação(Buscar), foi gerado um LOG do mesmo, tente novamente mais tarde.";
+                }
+        }
+        
+    }
+
+    $noovo = new Clientes();
+
+    $noovo->nome = $nome;
+    $noovo->email = $email;
+    $noovo->senha = $pass;
+
     //pega o id do usuario:
 
-    $id="0";
+    $id = $noovo->Inserir();
 
     //salvar foto!
     if ( isset( $_FILES[ 'contact_img' ][ 'name' ] ) && $_FILES[ 'contact_img' ][ 'error' ] == 0 )

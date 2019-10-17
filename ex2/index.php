@@ -1,3 +1,23 @@
+<?php 
+    session_start();
+
+    if (!file_exists("img/")){
+        mkdir("img/", 0700);
+        }
+    if (!file_exists("img/adm")){
+        mkdir("img/adm/", 0700);
+        }
+    if (!file_exists("img/car/")){
+        mkdir("img/car/", 0700);
+        }
+    if (!file_exists("img/cliente/")){
+        mkdir("img/cliente/", 0700);
+        }
+
+    define('ROOT_PATH', dirname(__FILE__));
+
+?>
+
 <!DOCTYPE html>
 <html lang="PT">
     <head>
@@ -35,16 +55,19 @@
         <script src="view/js/hero-slider-main.js"></script>          <!-- Hero slider (https://codyhouse.co/gem/hero-slider/) -->
         <script src="view/js/jquery.magnific-popup.min.js"></script> <!-- Magnific popup (http://dimsemenov.com/plugins/magnific-popup/) -->
 
+
+        <!--Icone da pagina-->
+        <link rel="icon" type="imagem/png" href="icon.png" />
+
     </head>
 <!--BODY-->
     <?php
-        session_start();
 
         $arq = "view/Principal.html";
 
         if (isset($_SESSION['user'])){
             if($_SESSION['user']=='0'){
-//                echo 'cliente';
+                //echo 'cliente';
                 //cliente
                 $arq = "view/cliente.html";
             }
@@ -64,9 +87,9 @@
         if (isset($_SESSION['nome'])){
         $html = str_replace('#{nome}', $_SESSION['nome'], $html);
         }
+        
         $html = str_replace('#{lista_carros}', $ds->r_carros(), $html);
 
         echo $html;
-//        echo "Start";
     ?>
 </html>

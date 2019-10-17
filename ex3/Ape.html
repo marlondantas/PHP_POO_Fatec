@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Simulador - Comumed</title>
+        
+        <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.1/build/pure-min.css" integrity="sha384-oAOxQR6DkCoMliIh8yFnu25d7Eq/PHS21PClpwjOTeU2jRSq11vu66rf90/cZr47" crossorigin="anonymous">
+        
+        <meta charset="utf-8">
+
+        <link rel="icon" type="imagem/png" href="icon.png" />
+
+        <script>
+            
+            total = 0;
+
+            function myFunction(quantidade,Total) {
+
+
+                total = total + (quantidade * Total);
+
+               // alert("Hello! I am an alert box!!"+total);
+
+                document.getElementById("saidaMan").value = "R$: " + total;
+            }
+        </script>
+    </head>
+    <body>
+    <center>
+        <form class="pure-form" method="POST" action="banco.php?metodo=2">
+
+        <table class="pure-table pure-table-bordered" border="1">
+            <tr>
+                <td colspan="5"><img src="logo.png" style="border: 0px;margin: 0px; padding: 0px;  height: 225px;" alt="LOGOTIPO" title="LOGOTIPO"></td>
+            </tr>
+
+            <tr>
+                <td>Nome</td>
+                <td colspan="4"><input name="Nome" type="text" style="position:relative; height: 100%;"></td>
+            </tr>
+
+            <tr>
+                <th>Faixa Etária</th>
+                <th><center><a class="pure-button pure-button-primary" style="text-decoration: none;"href="enf.html">Enfermaria</a></center></th>
+                <th><strong>Apartamento</strong></th>
+                <th colspan="">Total</th>
+            </tr>
+            <tr>
+                <td>0 – 18 anos</td>
+                <td colspan="2"><center>R$282,00</center></td>
+                <td><input onchange="myFunction(282,this.value);" name="0-18" type="text"></td>
+            </tr>
+            <tr>
+                <td>19 – 23 anos</td>
+                <td colspan="2"><center>R$325,00</center></td>
+                <td><input onchange="myFunction(325,this.value);" name="19-23" type="text"></td>
+            </tr>
+            <tr>
+                <td>24 – 28 anos</td>
+                <td colspan="2"><center>R$373,00</center></td>
+                <td><input onchange="myFunction(373,this.value);" name="24-28" type="text"></td>
+            </tr>
+            <tr>
+                <td>29 – 38 anos</td>
+                <td colspan="2"><center>R$494,00</center></td>
+                <td><input onchange="myFunction(494,this.value);" name="29-38" type="text"></td>
+            </tr>
+            <tr>
+                <td>39 – 53 anos</td>
+                <td colspan="2"><center>R$902,00</center></td>
+                <td><input onchange="myFunction(902,this.value);" name="39-53" type="text"></td>
+            </tr>
+            <tr>
+                <td>54 anos ou mais</td>
+                <td colspan="2"><center>R$1200,00</center></td>
+                <td><input onchange="myFunction(1200,this.value);" name="54mais" type="text"></td>
+            </tr>
+            <tr>
+                <td>Total:</td>
+                <td><input id='saidaMan' name="Total" type="text"></td>
+                <td colspan="2"><input class="pure-button pure-button-primary" type="submit" value="enviar"></td>
+            </tr>
+        </table>
+        </form>
+    </center>
+    </body>
+</html>

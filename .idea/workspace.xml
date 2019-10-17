@@ -3,122 +3,34 @@
   <component name="ChangeListManager">
     <list default="true" id="71d36b69-a1d1-4e52-8125-f61a676b86c4" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex2/concessionaria.sql" beforeDir="false" afterPath="$PROJECT_DIR$/ex2/concessionaria.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex2/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ex2/controller/imp.php" beforeDir="false" afterPath="$PROJECT_DIR$/ex2/controller/imp.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ex2/controller/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/ex2/controller/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ex2/controller/login_adm.php" beforeDir="false" afterPath="$PROJECT_DIR$/ex2/controller/login_adm.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ex2/controller/login_cliente.php" beforeDir="false" afterPath="$PROJECT_DIR$/ex2/controller/login_cliente.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ex2/controller/logoff.php" beforeDir="false" afterPath="$PROJECT_DIR$/ex2/controller/logoff.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ex2/controller/new_adm.php" beforeDir="false" afterPath="$PROJECT_DIR$/ex2/controller/new_adm.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ex2/controller/new_car.php" beforeDir="false" afterPath="$PROJECT_DIR$/ex2/controller/new_car.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ex2/controller/new_cliente.php" beforeDir="false" afterPath="$PROJECT_DIR$/ex2/controller/new_cliente.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ex2/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/ex2/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ex2/model/Clientes.php" beforeDir="false" afterPath="$PROJECT_DIR$/ex2/model/Clientes.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ex2/model/Usuario.php" beforeDir="false" afterPath="$PROJECT_DIR$/ex2/model/Usuario.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ex2/model/Veiculos.php" beforeDir="false" afterPath="$PROJECT_DIR$/ex2/model/Veiculos.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ex2/model/conn.php" beforeDir="false" afterPath="$PROJECT_DIR$/ex2/model/conn.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ex2/sobre.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ex2/sobre.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex2/view/Login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ex2/view/ABOUT THIS TEMPLATE.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ex2/view/ABOUT THIS TEMPLATE.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ex2/view/Principal.html" beforeDir="false" afterPath="$PROJECT_DIR$/ex2/view/Principal.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex2/view/fonts/JosefinSans/JosefinSans-Bold.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex2/view/fonts/JosefinSans/JosefinSans-BoldItalic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex2/view/fonts/JosefinSans/JosefinSans-Italic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex2/view/fonts/JosefinSans/JosefinSans-Light.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex2/view/fonts/JosefinSans/JosefinSans-LightItalic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex2/view/fonts/JosefinSans/JosefinSans-Regular.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex2/view/fonts/JosefinSans/JosefinSans-SemiBold.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex2/view/fonts/JosefinSans/JosefinSans-SemiBoldItalic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex2/view/fonts/JosefinSans/JosefinSans-Thin.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex2/view/fonts/JosefinSans/JosefinSans-ThinItalic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex2/view/fonts/JosefinSans/OFL.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex2/view/fonts/Linearicons-Free-v1.0.0/WebFont/Linearicons-Free.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex2/view/fonts/Linearicons-Free-v1.0.0/WebFont/Linearicons-Free.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex2/view/fonts/Linearicons-Free-v1.0.0/WebFont/Linearicons-Free.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex2/view/fonts/Linearicons-Free-v1.0.0/WebFont/Linearicons-Free.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex2/view/fonts/Linearicons-Free-v1.0.0/WebFont/Linearicons-Free.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex2/view/fonts/Linearicons-Free-v1.0.0/icon-font.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex2/view/fonts/OpenSans/OpenSans-Bold.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex2/view/fonts/OpenSans/OpenSans-BoldItalic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex2/view/fonts/OpenSans/OpenSans-ExtraBold.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex2/view/fonts/OpenSans/OpenSans-ExtraBoldItalic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex2/view/fonts/OpenSans/OpenSans-Italic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex2/view/fonts/OpenSans/OpenSans-Light.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex2/view/fonts/OpenSans/OpenSans-LightItalic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex2/view/fonts/OpenSans/OpenSans-Regular.otf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex2/view/fonts/OpenSans/OpenSans-Regular.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex2/view/fonts/OpenSans/OpenSans-SemiBold.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex2/view/fonts/OpenSans/OpenSans-SemiBoldItalic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex2/view/fonts/font-awesome-4.7.0/HELP-US-OUT.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex2/view/fonts/font-awesome-4.7.0/css/font-awesome.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex2/view/fonts/font-awesome-4.7.0/css/font-awesome.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex2/view/fonts/font-awesome-4.7.0/fonts/FontAwesome.otf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex2/view/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex2/view/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex2/view/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex2/view/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex2/view/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex2/view/fonts/font-awesome-4.7.0/less/animated.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex2/view/fonts/font-awesome-4.7.0/less/bordered-pulled.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex2/view/fonts/font-awesome-4.7.0/less/core.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex2/view/fonts/font-awesome-4.7.0/less/fixed-width.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex2/view/fonts/font-awesome-4.7.0/less/font-awesome.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex2/view/fonts/font-awesome-4.7.0/less/icons.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex2/view/fonts/font-awesome-4.7.0/less/larger.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex2/view/fonts/font-awesome-4.7.0/less/list.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex2/view/fonts/font-awesome-4.7.0/less/mixins.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex2/view/fonts/font-awesome-4.7.0/less/path.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex2/view/fonts/font-awesome-4.7.0/less/rotated-flipped.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex2/view/fonts/font-awesome-4.7.0/less/screen-reader.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex2/view/fonts/font-awesome-4.7.0/less/stacked.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex2/view/fonts/font-awesome-4.7.0/less/variables.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex2/view/fonts/font-awesome-4.7.0/scss/_animated.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex2/view/fonts/font-awesome-4.7.0/scss/_bordered-pulled.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex2/view/fonts/font-awesome-4.7.0/scss/_core.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex2/view/fonts/font-awesome-4.7.0/scss/_fixed-width.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex2/view/fonts/font-awesome-4.7.0/scss/_icons.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex2/view/fonts/font-awesome-4.7.0/scss/_larger.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex2/view/fonts/font-awesome-4.7.0/scss/_list.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex2/view/fonts/font-awesome-4.7.0/scss/_mixins.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex2/view/fonts/font-awesome-4.7.0/scss/_path.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex2/view/fonts/font-awesome-4.7.0/scss/_rotated-flipped.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex2/view/fonts/font-awesome-4.7.0/scss/_screen-reader.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex2/view/fonts/font-awesome-4.7.0/scss/_stacked.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex2/view/fonts/font-awesome-4.7.0/scss/_variables.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex2/view/fonts/font-awesome-4.7.0/scss/font-awesome.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex2/view/fonts/oswald/Oswald-Bold.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex2/view/fonts/oswald/Oswald-ExtraLight.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex2/view/fonts/oswald/Oswald-Light.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex2/view/fonts/oswald/Oswald-Medium.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex2/view/fonts/oswald/Oswald-Regular.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex2/view/fonts/oswald/Oswald-SemiBold.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex2/view/images/bg-01.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex2/view/images/icons/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex2/view/images/icons/map-marker.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex2/view/images/img-01.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex2/view/img/tm-img-01-tn.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex2/view/img/tm-img-01.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex2/view/img/tm-img-02-tn.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex2/view/img/tm-img-02.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex2/view/img/tm-img-03-tn.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex2/view/img/tm-img-03.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex2/view/img/tm-img-04-tn.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex2/view/img/tm-img-04.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex2/view/img/tm-img-05-tn.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex2/view/img/tm-img-05.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex2/view/img/tm-img-06-tn.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex2/view/img/tm-img-06.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex2/view/img/tm-img-07-tn.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex2/view/img/tm-img-07.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex2/view/img/tm-img-08-tn.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex2/view/img/tm-img-08.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex2/view/img/tm-img-09-tn.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex2/view/img/tm-img-09.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex2/view/img/tm-img-10-tn.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex2/view/img/tm-img-10.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex2/view/img/tm-img-11-tn.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex2/view/img/tm-img-11.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex2/view/img/tm-img-12-tn.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex2/view/img/tm-img-12.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex2/view/img/tm-img-13-tn.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex2/view/img/tm-img-13.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex2/view/img/tm-img-14-tn.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex2/view/img/tm-img-14.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex2/view/img/tm-img-15-tn.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex2/view/img/tm-img-15.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex2/view/img/tm-img-16-tn.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex2/view/img/tm-img-16.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ex2/view/adm.html" beforeDir="false" afterPath="$PROJECT_DIR$/ex2/view/adm.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ex2/view/cliente.html" beforeDir="false" afterPath="$PROJECT_DIR$/ex2/view/cliente.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ex2/view/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/ex2/view/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ex2/view/css/tooplate-style.css" beforeDir="false" afterPath="$PROJECT_DIR$/ex2/view/css/tooplate-style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ex2/view/css/util.css" beforeDir="false" afterPath="$PROJECT_DIR$/ex2/view/css/util.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ex2/view/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/ex2/view/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ex2/view/js/map-custom.js" beforeDir="false" afterPath="$PROJECT_DIR$/ex2/view/js/map-custom.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ex2/view/vendor/countdowntime/countdowntime.js" beforeDir="false" afterPath="$PROJECT_DIR$/ex2/view/vendor/countdowntime/countdowntime.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ex2/view/vendor/css-hamburgers/hamburgers.css" beforeDir="false" afterPath="$PROJECT_DIR$/ex2/view/vendor/css-hamburgers/hamburgers.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ex2/view/vendor/css-hamburgers/hamburgers.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/ex2/view/vendor/css-hamburgers/hamburgers.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ex2/view/vendor/select2/select2.css" beforeDir="false" afterPath="$PROJECT_DIR$/ex2/view/vendor/select2/select2.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ex2/view/vendor/select2/select2.js" beforeDir="false" afterPath="$PROJECT_DIR$/ex2/view/vendor/select2/select2.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -143,22 +55,37 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ex2/view/Principal.html">
+        <entry file="file://$PROJECT_DIR$/ex2/controller/new_adm.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="232">
-              <caret line="204" column="68" selection-start-line="204" selection-start-column="68" selection-end-line="204" selection-end-column="68" />
+            <state relative-caret-position="51">
+              <caret line="8" selection-start-line="8" selection-end-line="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ex3/modeloxml1.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="390">
+              <caret line="37" column="28" selection-end-line="37" selection-end-column="28" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ex2/controller/index.php">
+        <entry file="file://$PROJECT_DIR$/ex2/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="25" column="16" selection-start-line="25" selection-start-column="16" selection-end-line="25" selection-end-column="16" />
-              <folding>
-                <element signature="e#7#28#0#PHP" expanded="true" />
-              </folding>
+            <state relative-caret-position="272">
+              <caret line="16" selection-start-line="16" selection-end-line="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ex2/controller/imp.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" selection-start-line="4" selection-end-line="4" />
             </state>
           </provider>
         </entry>
@@ -166,26 +93,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ex2/model/Usuario.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="14" column="22" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ex2/model/conn.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="17" column="2" lean-forward="true" selection-start-line="17" selection-start-column="2" selection-end-line="17" selection-end-column="2" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ex2/controller/imp.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+            <state relative-caret-position="102">
+              <caret line="11" selection-start-line="11" selection-end-line="11" />
             </state>
           </provider>
         </entry>
@@ -222,20 +131,21 @@
         <option value="$PROJECT_DIR$/ex2/view/PLogadoAdm.html" />
         <option value="$PROJECT_DIR$/ex2/view/PLogadoCliente.html" />
         <option value="C:/xampp/htdocs/Mlu3/Apps/Frutap/CONTROLLER/show_cad_saida.php" />
-        <option value="$PROJECT_DIR$/ex2/controller/imp.php" />
         <option value="$PROJECT_DIR$/ex2/controller/new_car.php" />
-        <option value="$PROJECT_DIR$/ex2/controller/new_adm.php" />
         <option value="$PROJECT_DIR$/ex2/controller/new_cliente.php" />
         <option value="$PROJECT_DIR$/ex2/view/adm.html" />
         <option value="$PROJECT_DIR$/ex2/view/cliente.html" />
         <option value="$PROJECT_DIR$/ex2/controller/login_adm.php" />
         <option value="$PROJECT_DIR$/ex2/controller/login_cliente.php" />
-        <option value="$PROJECT_DIR$/ex2/index.php" />
         <option value="$PROJECT_DIR$/ex2/controller/logoff.php" />
         <option value="$PROJECT_DIR$/ex2/view/Principal.html" />
         <option value="$PROJECT_DIR$/ex2/controller/index.php" />
-        <option value="$PROJECT_DIR$/ex2/model/Usuario.php" />
         <option value="$PROJECT_DIR$/ex2/model/conn.php" />
+        <option value="$PROJECT_DIR$/ex2/model/Conn.php" />
+        <option value="$PROJECT_DIR$/ex2/model/Usuario.php" />
+        <option value="$PROJECT_DIR$/ex2/index.php" />
+        <option value="$PROJECT_DIR$/ex2/controller/imp.php" />
+        <option value="$PROJECT_DIR$/ex2/controller/new_adm.php" />
       </list>
     </option>
   </component>
@@ -251,35 +161,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="ProjectPane" />
       <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="PHP_POO_Fatec" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PHP_POO_Fatec" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PHP_POO_Fatec" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PHP_POO_Fatec" type="462c0819:PsiDirectoryNode" />
-              <item name="ex2" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PHP_POO_Fatec" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PHP_POO_Fatec" type="462c0819:PsiDirectoryNode" />
-              <item name="ex2" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PHP_POO_Fatec" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PHP_POO_Fatec" type="462c0819:PsiDirectoryNode" />
-              <item name="ex2" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -292,6 +175,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Meu computador\OneDrive - Fatec Centro Paula Souza\4°\PHP POO\PHP_POO_Fatec\ex2" />
       <recent name="C:\Users\Meu computador\OneDrive - Fatec Centro Paula Souza\4°\PHP POO\PHP_POO_Fatec\ex2\view" />
     </key>
   </component>
@@ -319,18 +203,19 @@
       <updated>1567740916060</updated>
       <workItem from="1567740917777" duration="1964000" />
       <workItem from="1568087383638" duration="1562000" />
-      <workItem from="1568170880436" duration="8402000" />
+      <workItem from="1568170880436" duration="8671000" />
+      <workItem from="1568257503524" duration="3356000" />
+      <workItem from="1568949104263" duration="127000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11928000" />
+    <option name="totallyTimeSpent" value="15680000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25718608" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2647504" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -376,9 +261,7 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/ex2/index.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/ex2/index.html" />
     <entry file="file://$PROJECT_DIR$/ex2/view/administrador.html" />
     <entry file="file://$PROJECT_DIR$/ex2/concessionaria.sql">
       <provider selected="true" editor-type-id="text-editor">
@@ -418,24 +301,12 @@
     <entry file="file://$PROJECT_DIR$/ex2/view/ABOUT THIS TEMPLATE.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/ex2/img/0.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ex2/img/adm/0.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ex2/img/car/0.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ex2/img/cliente/0.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ex2/view/images/icons/map-marker.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ex2/view/images/icons/favicon.ico">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/ex2/img/0.jpg" />
+    <entry file="file://$PROJECT_DIR$/ex2/img/adm/0.jpg" />
+    <entry file="file://$PROJECT_DIR$/ex2/img/car/0.jpg" />
+    <entry file="file://$PROJECT_DIR$/ex2/img/cliente/0.jpg" />
+    <entry file="file://$PROJECT_DIR$/ex2/view/images/icons/map-marker.png" />
+    <entry file="file://$PROJECT_DIR$/ex2/view/images/icons/favicon.ico" />
     <entry file="file://$PROJECT_DIR$/ex2/controller/new_car.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="595">
@@ -450,20 +321,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ex2/controller/new_adm.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="271">
-          <caret line="45" selection-start-line="45" selection-end-line="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ex2/view/Login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="38" column="94" selection-start-line="38" selection-start-column="94" selection-end-line="38" selection-end-column="94" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/ex2/view/Login.html" />
     <entry file="file://$PROJECT_DIR$/ex2/view/cliente.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="280">
@@ -478,13 +336,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ex2/controller/login_adm.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ex2/controller/logoff.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
@@ -492,24 +343,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ex2/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="178">
-          <caret line="12" column="69" selection-start-line="12" selection-start-column="65" selection-end-line="12" selection-end-column="69" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ex2/view/adm.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="586">
           <caret line="199" column="77" selection-start-line="199" selection-start-column="77" selection-end-line="199" selection-end-column="77" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ex2/view/Principal.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="204" column="68" selection-start-line="204" selection-start-column="68" selection-end-line="204" selection-end-column="68" />
         </state>
       </provider>
     </entry>
@@ -523,24 +360,65 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ex2/model/Usuario.php">
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/Rar$DIa19268.40280/DAOusuario.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/Rar$DIa19268.42981/conecta.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ex2/view/Principal.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="14" column="22" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
+        <state relative-caret-position="3468">
+          <caret line="204" column="16" selection-start-line="204" selection-start-column="16" selection-end-line="204" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ex2/model/conn.php">
+    <entry file="file://$PROJECT_DIR$/ex2/model/Conn.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="17" column="2" lean-forward="true" selection-start-line="17" selection-start-column="2" selection-end-line="17" selection-end-column="2" />
+        <state relative-caret-position="441">
+          <caret line="31" column="49" selection-start-line="31" selection-start-column="49" selection-end-line="31" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ex2/controller/login_adm.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ex2/controller/new_adm.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ex2/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" selection-start-line="16" selection-end-line="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ex2/controller/imp.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ex2/model/Usuario.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ex3/modeloxml1.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="37" column="28" selection-end-line="37" selection-end-column="28" />
         </state>
       </provider>
     </entry>

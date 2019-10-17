@@ -1,7 +1,10 @@
 Grupo:
     Marlon Dantas
     Cauan Siqueira
-    Milena Braga
+    Milena Rebeiro
 
-Banco de dados:
-	concessionaria
+
+
+Banco de banco de dados: concessionaria
+usuairo: 'root'
+senha: ''

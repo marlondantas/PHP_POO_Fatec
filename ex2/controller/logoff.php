@@ -8,9 +8,5 @@
     session_start();
     session_destroy();
 
-    $_SESSION['user'] = '0';
-
     header("Location: ..\index.php");
-
-
     ?>

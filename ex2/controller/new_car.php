@@ -12,9 +12,74 @@
 
     //salva no SQL:
 
+    require("../model/Veiculos.php");
+
+    class Veiculos
+    {
+        public $marca;
+        public $modelo;
+        public $valor;
+
+        public static $instance;
+    
+    
+        public static function getInstance() {
+            if (!isset(self::$instance))
+                self::$instance = new Veiculos();
+    
+            return self::$instance;
+        }
+    
+        public function Inserir() {
+            try {
+                $sql = "INSERT INTO veiculos (       
+                    `marca`,`modelo`,`valor`) 
+                    VALUES (
+                    :marca,:modelo,:valor)";
+    
+                $p_sql = Coon::getInstance()->prepare($sql);
+    
+                $p_sql->bindValue(":marca", $this->marca);
+                $p_sql->bindValue(":modelo", $this->modelo);
+                $p_sql->bindValue(":valor", $this->valor);   
+    
+                $p_sql->execute();
+                
+                return  Coon::lastInsertId();
+
+            } catch (Exception $e) {
+                print "Ocorreu um erro ao tentar executar esta ação, foi gerado um LOG do mesmo, tente novamente mais tarde.";
+                }
+        }
+
+        public function Buscar() {
+            try {
+                $sql = "SELECT * FROM veiculos";
+                $p_sql = Coon::getInstance()->prepare($sql);
+                // $p_sql->bindValue(":cod", $user);
+
+                $p_sql->execute();
+
+                // return $this->populaUsuario($p_sql->fetch(PDO::FETCH_ASSOC));
+                return $p_sql->execute();
+            } catch (Exception $e) {
+                print "Ocorreu um erro ao tentar executar esta ação(Buscar), foi gerado um LOG do mesmo, tente novamente mais tarde.";
+                }
+        }
+
+
+    }
+
+
+    $noovo = new Veiculos();
+
+    $noovo->marca = $marca;
+    $noovo->modelo = $modelo;
+    $noovo->valor = $valor;
+
     //pega o id do usuario:
 
-    $id="0";
+    $id = $noovo->Inserir();
 
     //salvar foto!
     if ( isset( $_FILES[ 'contact_img' ][ 'name' ] ) && $_FILES[ 'contact_img' ][ 'error' ] == 0 )
